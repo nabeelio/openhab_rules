@@ -37,11 +37,11 @@ then
     // only dim the lights if the current light brightness value
     // is greater than what it should be when dimmed
     var PercentType bright = LivingRoom_Brightness.state
-    if (bright > LIGHT_DIMMED) {
-        logInfo("lights_on_at_night", "night time, dimming!!")
-        sendCommand(BEDROOM_LIGHT, LIGHT_DIMMED)
-        sendCommand(LIVING_ROOM_LIGHT, LIGHT_DIMMED)
-    }
+    //if (bright > LIGHT_DIMMED) {
+    //    logInfo("lights_on_at_night", "night time, dimming!!")
+    //    sendCommand(BEDROOM_LIGHT, LIGHT_DIMMED)
+    //    sendCommand(LIVING_ROOM_LIGHT, LIGHT_DIMMED)
+    //}
 end
 
 // Dim the lights at night, unless TV is on
